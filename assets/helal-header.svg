@@ -1,0 +1,112 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827">
+        <animate attributeName="stop-color" values="#111827;#172554;#111827" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.5" stop-color="#2563EB">
+        <animate attributeName="stop-color" values="#2563EB;#0891B2;#7C3AED;#2563EB" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#581C87">
+        <animate attributeName="stop-color" values="#581C87;#1D4ED8;#581C87" dur="9s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="shine" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+        values="-1200 0;1200 0;-1200 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="rounded">
+      <rect width="1200" height="300" rx="26"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#rounded)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+
+    <!-- Soft animated light -->
+    <circle cx="180" cy="65" r="95" fill="#22D3EE" opacity="0.18" filter="url(#blur)">
+      <animate attributeName="cx" values="180;310;180" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="65;115;65" dur="7s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1030" cy="225" r="120" fill="#A855F7" opacity="0.20" filter="url(#blur)">
+      <animate attributeName="cx" values="1030;900;1030" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="225;170;225" dur="8s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Floating particles -->
+    <g fill="#FFFFFF" filter="url(#glow)">
+      <circle cx="95" cy="70" r="2.5" opacity="0.7">
+        <animate attributeName="cy" values="70;52;70" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1080" cy="78" r="2" opacity="0.6">
+        <animate attributeName="cy" values="78;60;78" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1115" cy="190" r="2.5" opacity="0.7">
+        <animate attributeName="cy" values="190;170;190" dur="3.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="125" cy="225" r="2" opacity="0.55">
+        <animate attributeName="cy" values="225;205;225" dur="4.2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- Decorative lines -->
+    <path d="M0 242 C220 200 340 280 570 235 C800 190 965 255 1200 215 L1200 300 L0 300 Z"
+          fill="#0B1020" opacity="0.42">
+      <animate attributeName="d"
+        values="M0 242 C220 200 340 280 570 235 C800 190 965 255 1200 215 L1200 300 L0 300 Z;
+                M0 225 C220 265 370 205 590 250 C820 290 980 205 1200 235 L1200 300 L0 300 Z;
+                M0 242 C220 200 340 280 570 235 C800 190 965 255 1200 215 L1200 300 L0 300 Z"
+        dur="10s" repeatCount="indefinite"/>
+    </path>
+
+    <rect width="1200" height="300" fill="url(#shine)" opacity="0.7"/>
+
+    <!-- Main text -->
+    <g text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" fill="white">
+      <text x="600" y="125" font-size="58" font-weight="800" letter-spacing="1">
+        Md. Helal Uddin
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.18;0.82;1"
+                 dur="8s" repeatCount="indefinite"/>
+      </text>
+
+      <text x="600" y="178" font-size="25" font-weight="600" fill="#E0F2FE" letter-spacing="0.8">
+        Full-Stack Software Engineer
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.25;0.78;1"
+                 dur="8s" repeatCount="indefinite"/>
+      </text>
+
+      <text x="600" y="213" font-size="16" font-weight="400" fill="#DBEAFE" letter-spacing="1.4">
+        NEXT.JS  •  REACT  •  DJANGO  •  PYTHON  •  POSTGRESQL
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.32;0.74;1"
+                 dur="8s" repeatCount="indefinite"/>
+      </text>
+    </g>
+
+    <!-- Animated accent line -->
+    <rect x="480" y="232" width="240" height="3" rx="1.5" fill="#67E8F9">
+      <animate attributeName="width" values="120;240;120" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="540;480;540" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.45;1;0.45" dur="3s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="1" y="1" width="1198" height="298" rx="25" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="2"/>
+  </g>
+</svg>
