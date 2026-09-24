@@ -79,26 +79,6 @@ My engineering interests span **full-stack development, backend systems, softwar
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
 
-### Engineering Practices
-
-```text
-• Object-Oriented Programming
-• REST API Development
-• Authentication & Authorization
-• OAuth / Modern Authentication
-• Database Design
-• Responsive UI Development
-• Git Branching & Pull Requests
-• Code Reviews
-• Testing & Debugging
-• Docker & Containerization
-• CI/CD Concepts
-• Linux Server Deployment
-• Agile Development
-• Requirement Analysis
-• Software Documentation
-```
-
 # 🧠 Problem Solving & Competitive Programming
 
 Problem solving is an important part of my engineering journey.
@@ -122,6 +102,8 @@ I have solved **700+ problems on online judges**, strengthening my understanding
 
 ---
 
+
+
 # 🎯 Engineering Interests
 
 I'm particularly interested in building systems that combine strong engineering fundamentals with practical business value.
@@ -141,6 +123,32 @@ Authentication & Authorization
 Performance & Scalability
 Developer Tooling
 ```
+
+---
+
+## 📊 GitHub Activity
+
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=Helal-AIUB&show_icons=true&theme=github_dark&hide_border=true"
+    width="48%"
+    alt="Helal-AIUB GitHub Stats"
+  />
+
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com/?user=Helal-AIUB&theme=github-dark-blue&hide_border=true"
+    width="48%"
+    alt="Helal-AIUB GitHub Streak"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=Helal-AIUB&theme=github-compact&hide_border=true"
+    width="100%"
+    alt="Helal-AIUB GitHub Activity Graph"
+  />
+</p>
 
 ---
 
@@ -167,19 +175,6 @@ Deploy reliably
         ↓
 Monitor & maintain
 ```
-
-I value:
-
-- Clean and maintainable code
-- Clear architecture
-- Meaningful Git history
-- Good documentation
-- User-focused development
-- Continuous learning
-- Team collaboration
-- Testing and debugging
-- Reliable deployment
-- Continuous improvement
 
 # 🤝 Let's Connect
 
