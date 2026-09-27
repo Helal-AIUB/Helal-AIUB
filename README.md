@@ -16,23 +16,6 @@ My engineering interests span **full-stack development, backend systems, softwar
 
 ---
 
-## 👨‍💻 About Me
-
-- 🎓 B.Sc. in Computer Science & Engineering from **American International University-Bangladesh (AIUB)**
-- 💼 Full-Stack Software Engineer Intern at **Brainicon Technology**
-- 🚀 Experienced in building full-stack web applications using **Next.js, React, Django, Python, and PostgreSQL**
-- 🧩 Comfortable working across both **frontend and backend**
-- 🐳 Experience with **Docker, CI/CD concepts, Linux server deployment, and production troubleshooting**
-- 🔐 Experience with modern authentication technologies including **OAuth and Better Auth**
-- 🔀 Experienced with professional **Git/GitHub workflows, branches, pull requests, code reviews, and merge conflict resolution**
-- 🧠 Solved **700+ problems on online judges**, strengthening data structures, algorithms, and problem-solving ability
-- 🏆 Earned a **2★ Problem Solving Certificate from Phitron**
-- 🔬 Contributed to research publications presented at international conferences
-- 🤝 Comfortable working in agile, collaborative development environments
-- 📚 Strong interest in continuous learning, software engineering, and emerging technologies
-
----
-
 ## 🛠️ Technical Skills
 
 ### Programming Languages
