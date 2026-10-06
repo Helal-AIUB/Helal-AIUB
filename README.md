@@ -135,30 +135,6 @@ Developer Tooling
 
 ---
 
-# 📈 My Engineering Philosophy
-
-> **Build with purpose. Understand the problem before writing the code.**
-
-I believe good software is not simply about making an application work.
-
-Good engineering means:
-
-```text
-Understand the requirement
-        ↓
-Design the solution
-        ↓
-Build cleanly
-        ↓
-Test thoroughly
-        ↓
-Review & improve
-        ↓
-Deploy reliably
-        ↓
-Monitor & maintain
-```
-
 # 🤝 Let's Connect
 
 I'm always interested in:
